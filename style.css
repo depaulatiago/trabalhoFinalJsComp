@@ -1,0 +1,40 @@
+#title {
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#select {
+    border-radius: 5px;
+    padding:  0.3rem;
+    margin: 16px;
+}
+
+#newData {
+    font-family: monospace;
+    font-size:  0.9rem;
+    padding: 8px;
+}
+
+#totalData {
+    font-family: monospace;
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    #newData {
+        display: flex;
+        flex-direction: column;
+    }
+    #totalData {
+        display: flex;
+        flex-direction: column;
+    }
+}
